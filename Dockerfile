@@ -2,7 +2,7 @@ FROM jetbrains/teamcity-agent:latest
 LABEL maintainer="LolHens <pierrekisters@gmail.com>"
 
 
-ENV TINI_VERSION 0.14.0
+ENV TINI_VERSION 0.19.0
 ENV TINI_URL https://github.com/krallin/tini/releases/download/v$TINI_VERSION/tini
 
 
